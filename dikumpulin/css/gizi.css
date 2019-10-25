@@ -1,0 +1,121 @@
+.kalor {
+    display: inline-block;
+    padding: 7px 26px;
+    border-collapse: collapse;
+    background:  rgba(255,255,255,0.125);
+    color: #f8f8f8;
+    font-weight: bold;
+}
+.kalor1 {
+    display: inline-block;
+    padding: 7px 26px;
+    border-collapse: collapse;
+    background:  rgba(255,255,255,0.125);
+    color: #fdec6e;
+    font-weight: bold;
+}
+.kiri{
+    margin-left: 50px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    padding-left: 235px;
+}
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.219);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 50%;
+  margin-left: 50px;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #afffda23;
+}
+table tbody tr {
+  height: 50px;
+}
+td{
+  text-align:center;
+}
+.table-head th{
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+.kolom1 {
+  width: 180px;
+}
+.kolom2 {
+  width: 100px;
+}
+.kolom3 {
+  width: 200px;
+}
+.kolom4 {
+  width: 160px;
+  padding-right: 20px;
+}
+.kolom5{
+    width: 160px;
+}
+.cari2{
+    background: white;
+}
+.gbr{
+    margin-top: 5px;
+}
+.carigz {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.inputcari {
+  width: 100%;
+  border: 3px solid rgb(33, 173, 33);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.inputcari:focus{
+  color: rgb(33, 173, 33);
+}
+.caribtn {
+  width: 40px;
+  height: 36px;
+  border: 1px solid rgb(33, 173, 33);
+  background: rgb(33, 173, 33);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  width: 30%;
+  float: right;
+  margin-top: -306px;
+  margin-right: 70px;
+}

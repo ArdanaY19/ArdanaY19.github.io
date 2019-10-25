@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/Calculate.css">
+</head>
+<body>  
+    <div class="header">
+        <img src="css/gambar/DietToday.png" class="logo" alt="">
+
+        <ul class="menu">
+           <a href="../index.html">Home</a>
+           <a href="alat.html" class="terpilih">Alat</a>
+           <a href="berita.html">Berita</a>
+           <a href="login.html" class="msk">Masuk</a>
+           <input type="text" class="cari" placeholder="Search">
+           <div class="dropdown"> 
+            <button class="dropbtn"><b>Contact Us</b>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="Container.html">Rizky Maulana</a>
+              <a href="Container2.html">Ardana</a>
+            </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn"><b>Hidup Sehat</b>
+              </button>
+            <div class="dropdown-content" id="myDropdown ">
+              <a href="Jenis Diet.html">Jenis Diet</a>
+              <a href="Olahraga_ideal.html">Olahraga Ideal</a>
+              <a href="Info Gizi.html">Informasi Gizi Makanan</a>
+            </div>
+            </div>
+         </ul>
+      </div>
+      <div class="calculate">
+          <style media="screen">
+            input::-webkit-inner-spin-button,
+            input::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            }
+            </style>
+			<h1 style="color: black" align="center">Calorie Calculator</h1><br><br>
+            <div class="input-group">
+                <label for="data-group">Umur :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" id="umur" name="umur" placeholder="Masukkan Umur Anda">
+                <span class="geser1">Tahun</span>
+            </div>
+            <br>
+			<div class="input-group">
+                <label for="data-group">Tinggi Badan :</label>&nbsp;&nbsp;&nbsp;
+                <input type="number" id="tinggi" name="imel" placeholder="Masukkan Tinggi Badan">
+                <span class="geser2">Cm</span>
+            </div>
+            <br>
+			<div class="input-group">
+                <label for="data-group">Berat Badan :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="pass" name="pass" placeholder="Masukkan Berat Badan">
+                <span class="geser">Kg</span>
+            </div>
+            <br>
+            <label for="data-group">Aktivitas :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="aktivitas" id="aktivitas">
+                <option value="0" selected>Rutinitas Olahraga</option>
+                <option value="1">ga pernah</option>
+                <option value="2">jarang</option>
+                <option value="3">b aja</option>
+                <option value="4">sering</option>
+            </select><br><br>
+			<div class="input-group radio">
+                <label for="data-group">Jenis Kelamin :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="jeniskelamin" id="Cowo" class="rbmark" value="Cowo">
+				<label for="Cowo" style="color: black">Laki - Laki</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jeniskelamin" id="Cewe" class="rbmark" value="Cewe">
+                <label for="Cewe" style="color: black">Perempuan</label>
+            </div><br><br>
+            <input type="submit" id="btn-submit" value="Hitung">
+      </div>
+</body>
+</html>
